@@ -1,0 +1,13 @@
+form {
+    max-width: 600px;
+    justify-items: center;
+    font-size: 18px;
+    border-radius: 300px;
+    margin: 0 auto !important;
+    
+}
+img {
+    float: left;
+    width: 300px;
+    margin-right: 50;
+}

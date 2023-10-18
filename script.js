@@ -2,23 +2,23 @@
 
 //Função para limpar formulário
 //Arrow function =>
-const limparFormulario = () => {
-    document.getElementsById('rua').value ='';
-    document.getElementsById('bairro').value ='';
-    document.getElementsById('cidade').value ='';
-    document.getElementsById('estado').value ='';
+const limparFormulario = (endereco) => {
+    document.getElementById ('rua').value ='';
+    document.getElementById('bairro').value ='';
+    document.getElementById('cidade').value ='';
+    document.getElementById('estado').value ='';
 }
 
 // Verifica se CEP é válido
-const eNumero =(numero) => /^[0-9]+$/.test(numero);
-const cepValido =(cep) => cep.length == 8 && eNumero(cep);
+const eNumero = (numero) => /^[0-9]+$/.test(numero);
+const cepValido = (cep) => cep.length == 8 && eNumero(cep);
 
 //Responsavel pelo preenchimento de formulário
-const preencherForumulario = (endereco) => {
-    document.getElementsById('rua').value = enedereco.logradouro;
-    document.getElementsById('bairro').value = endereco.bairro;
-    document.getElementsById('cidade').value = endereco.localidade;
-    document.getElementsById('estado').value = endereco.uf;
+const preencherFormulario = (endereco) => {
+    document.getElementById('rua').value = endereco.logradouro;
+    document.getElementById('bairro').value = endereco.bairro;
+    document.getElementById('cidade').value = endereco.localidade;
+    document.getElementById('estado').value = endereco.uf;
 }
 
 //Função para consumo de API da Via CEP
@@ -41,4 +41,4 @@ if (cepValido(cep.value)){
 }
 
 //Adiciona um evento DOM no input do CEP
-document.getElementById('cep').addEventListener('focusout', pesquisarCep)
+document.getElementById('cep').addEventListener('focusout', pesquisarCep);
