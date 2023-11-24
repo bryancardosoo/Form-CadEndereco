@@ -11,3 +11,6 @@ img {
     width: 300px;
     margin-right: 50;
 }
+div {
+    max-width: 95px;
+}

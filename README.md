@@ -6,7 +6,8 @@ Formulário para cadastrar Endereços, busca por CEP automáticamente
 
 [Projeto de portfólio pessoal](#projeto-de-portf%C3%B3lio-pessoal)
 [Descrição](#descri%C3%A7%C3%A3o)
-[Funcionalidades](https://github.com/bryancardosoo/formcadas-w-array#funcionalidades)
+[Introdução](#introdu%C3%A7%C3%A3o)
+[Funcionalidades](https://github.com/bryancardosoo/formcadas#funcionalidades)
 [Tecnologias utilizadas](#tecnologias-utilizadas)
 [Fontes consultadas](#fontes-consultadas)
 [Autores](#autores)  
@@ -34,7 +35,7 @@ The functionalities are: Adress registration form from CEP.
 
 
 ## Fontes consultadas
-* [ViaCEP](https://viacep.com.br/) - Como escrever um README incrível no seu Github
+* [ViaCEP](https://viacep.com.br/) - Implementação do banco de dados para buscar CEP
 * [Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/#gutters-) - 
 
 ## Autores
